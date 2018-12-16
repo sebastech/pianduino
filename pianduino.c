@@ -461,13 +461,6 @@ void loop() {
     }
 
     if (playing) {
-        //if music is playing, move the servo
-
-
-        //servo code
-        pos += 1;
-        delay(15);
-        myservo.write(pos);
 
 
         Serial.print("in playing\n");
